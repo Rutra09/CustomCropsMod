@@ -1,0 +1,12 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    "minecraft:kelp",
+    "minecraft:lily_pad",
+    "minecraft:nether_wart"
+  ],
+  "result": {
+    "id": "customcrops:marijuana_seeds",
+    "count": 8
+  }
+}

@@ -1,0 +1,25 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "customcrops:item/cigarette"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [175, -78, 19],
+			"scale": [0.49, 0.49, 0.49]
+		},
+		"firstperson_righthand": {
+			"rotation": [10, -177, 8],
+			"translation": [1.5, 0, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "cigarette",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": []
+		}
+	]
+}

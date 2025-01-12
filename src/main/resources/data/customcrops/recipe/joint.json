@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "group": "tools",
+  "pattern": [
+    "WWW",
+    "RRR",
+    "WWW"
+  ],
+  "key": {
+    "W": "minecraft:paper",
+    "R": "customcrops:marijuana"
+  },
+  "result": {
+    "id": "customcrops:joint",
+    "count": 1
+  }
+}

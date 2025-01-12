@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "customcrops",
+  "version": "${version}",
+
+  "name": "Custom Crops",
+  "description": "Adds custom crops like tobacco and marijuana to Minecraft!",
+  "authors": [
+    "ArturM"
+  ],
+
+  "license": "CC0-1.0",
+  "icon": "assets/customcrops/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "pl.arturm.tobacco.Tobacco"
+    ],
+    "client": [
+      "pl.arturm.tobacco.client.TobaccoClient"
+    ]
+  },
+  "mixins": [
+    "customcrops.mixins.json",
+    "customcrops.client.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.15.7",
+    "minecraft": "~1.21.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+
+  }
+}

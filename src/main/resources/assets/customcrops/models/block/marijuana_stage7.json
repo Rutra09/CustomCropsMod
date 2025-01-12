@@ -1,0 +1,44 @@
+{
+  "credit": "Made with Blockbench",
+  "textures": {
+    "0": "customcrops:block/marijuana_stage7",
+    "particle": "customcrops:block/marijuana_stage7"
+  },
+  "elements": [
+    {
+      "from": [8, 0, 0],
+      "to": [8, 16, 16],
+      "rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 14]},
+      "faces": {
+        "north": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+        "east": {"uv": [0, 0, 16, 16], "texture": "#0"},
+        "south": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+        "west": {"uv": [0, 0, 16, 16], "texture": "#0"},
+        "up": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+        "down": {"uv": [0, 0, 0, 16], "texture": "#missing"}
+      }
+    },
+    {
+      "from": [0, 0, 8],
+      "to": [16, 16, 8],
+      "rotation": {"angle": 0, "axis": "y", "origin": [2, 0, 8]},
+      "faces": {
+        "north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+        "east": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+        "south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+        "west": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+        "up": {"uv": [0, 0, 0, 16], "rotation": 90, "texture": "#missing"},
+        "down": {"uv": [0, 0, 0, 16], "rotation": 270, "texture": "#missing"}
+      }
+    }
+  ],
+  "display": {},
+  "groups": [
+    {
+      "name": "bone",
+      "origin": [0, 0, 0],
+      "color": 0,
+      "children": [0, 1]
+    }
+  ]
+}
